@@ -20,6 +20,18 @@
             <p>So, I had to put my foot down.</p>
             <br>
             <br>
+
+{% for post in posts %}
+    <article>
+        <time>published: {{ post.published_date }}</time>
+        <h2><a href="">{{ post.title }}</a> </h2>
+        <p>{{ post.text|linebreaksbr }}</p>
+    </article>
+{% endfor %}
+
+
+            <br>
+            <br>
             <h3>making the perfect almond butter and jam sandwich</h3>
             <h4>a recipe</h4>
             
