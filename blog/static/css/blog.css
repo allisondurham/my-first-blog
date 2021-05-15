@@ -1,6 +1,6 @@
 
 
-
+/* 
 
 h1 a, h2 a {
     color: #e4b314;
@@ -8,7 +8,7 @@ h1 a, h2 a {
 }
 body {
     padding-left: 15px;
-}
+} */
 
 
 
@@ -36,7 +36,8 @@ h4 {
 }
 
 .date {
-    color: #0a474b;
+    color: #18c3cf;
+    font-size: 9pt;
 }
 
 .save {
