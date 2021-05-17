@@ -24,7 +24,7 @@ body {
 .page-header h1 a:visited,
 .page-header h1 a:active {
     color: #0a474b;
-    font-size: 36pt;
+    font-size: 56pt;
     text-decoration: none;
 }
 
@@ -64,8 +64,8 @@ h4 {
     font-family: 'Arial Black', sans-serif;
 }
 
-.post h2 a,
-.post h2 a:visited {
+.post h1 a,
+.post h1 a:visited {
     color: #e4b314;
 }
 
